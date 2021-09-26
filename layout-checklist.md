@@ -36,6 +36,7 @@
 * [ ] Soldermask apertures on all SMT lands and PTH pads
 
 ## Differential pairs
+
 * [ ] Routed differentially
 * [ ] Skew matched
 * [ ] Correct clearance to non-coupled nets
@@ -49,15 +50,18 @@
 * [ ] Double-check pad width on connectors and add plane cutouts if needed to minimize impedance discontinuities
 
 ## Power
+
 * [ ] Minimal slots in planes from via antipads
 * [ ] Sufficient width for planes/traces for required current
 
 ## Sensitive analog
+
 * [ ] Guard ring / EMI cages provided if needed
 * [ ] Physically separated from high current SMPS or other noise sources
 * [ ] Consider microphone effect on MLCCs if near strong sound sources
 
 ## Mechanical
+
 * [ ] Confirm all connectors to other systems comply with the appropriate mechanical standard (connector orientation, key position, etc)
 * [ ] LEDs, buttons, and other UI elements on outward-facing side of board
 * [ ] Keep-outs around PCB perimeter, card guides, panelization mouse-bites, etc respected
@@ -101,10 +105,12 @@ bending stress
 * [ ] Test points labeled if space permits
 
 ## Flex specific
+
 * [ ] Components oriented to reduce bending forces
 * [ ] Teardrops on all wire-to-pad connections
 
 ## CAM production
+
 * [ ] KiCAD specific: rerun DRC and zone fills before exporting CAM files to ensure proper results
 * [ ] Export gerber/drill files at the same time to ensure consistency
 * [ ] Visually verify final CAM files to ensure no obvious misalignments
